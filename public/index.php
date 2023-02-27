@@ -27,10 +27,13 @@ foreach($pages as $key => $value){
 // echo "nous allons générer la page {$page}";
 require("../config/index.php");
 
+
+
 if($find){
     require(DIR_MODEL . $page .".php");
     require(DIR_CONTROLLER . $page .".php");
     require(DIR_VIEW . $page .".php");
+
 }
 
 ?>
