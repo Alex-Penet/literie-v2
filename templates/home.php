@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <a href="/page=">Liens vers </a>
+        <a href="./form/">Ajouter un matelas</a>
     </header>
 <main>
 
@@ -24,7 +24,7 @@
 </main>
 <footer>
     <div class="dimensions">
-        <p>Vous y découvrirez toures nos dimensions :</p>
+        <p>Vous y découvrirez toutes nos dimensions :</p>
     </div>
 
     <div class="marques">

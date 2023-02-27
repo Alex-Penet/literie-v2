@@ -7,12 +7,11 @@ class FormView
     public function __construct(HomeController $controller)
     {
         $this->controller = $controller;
-        $this->template = DIR_TEMPLATE . "home.php";
+        $this->template = DIR_TEMPLATE . "form.php";
     }
 
     public function render()
     {
-        $data = $this->controller->getMatelas();
         require($this->template);
     }
 }

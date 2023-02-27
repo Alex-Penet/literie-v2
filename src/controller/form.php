@@ -8,10 +8,5 @@ class FormController
         $this->model = $model;
     }
 
-    public function getMatelas(): array
-    {
-        $query = $this->model->db->query("SELECT * FROM matelas LIMIT  0,4");
-        $matelas = $query->fetchALL(PDO::FETCH_ASSOC);
-        return $matelas;
-    }   
+
 }

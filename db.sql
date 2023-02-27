@@ -48,7 +48,6 @@ VALUES
 
 insert into prix
 (namedim)
-
 VALUES 
 ('90 X 190'),
 ('140 X 190'),
