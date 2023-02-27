@@ -5,12 +5,16 @@ use literie3000;
 -- Table qui regroupe
 create table matelas
 (
-id INT primary key auto_increment,
+id INT  auto_increment,
 marque_id int,
 image Varchar(255),
 dimension_id  int,
-prix int
-prix_promo int
+prix int,
+prix_promo int,
+
+PRIMARY KEY (id),
+FOREIGN KEY (marque_id) REFERENCES marque(id),
+FOREIGN KEY (dimension_id) REFERENCES dimension(id)
 );
 
 -- Table de données
